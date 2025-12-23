@@ -112,7 +112,7 @@ public class TangentLineVisualization extends JPanel {
     private void drawPoint(Graphics2D g2, int cx, int cy, double x, double y, Color color) {
         int px = cx + (int)(x * SCALE);
         int py = cy - (int)(y * SCALE);
-        int r = 4; // شعاع نقطه
+        int r = 4;
         g2.setColor(color);
         g2.fillOval(px - r, py - r, 2 * r, 2 * r);
     }
